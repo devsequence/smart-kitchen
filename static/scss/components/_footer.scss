@@ -1,0 +1,36 @@
+.footer{
+  padding: 50px 30px 46px;
+  background: #202020;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  a{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  &-phone{
+    margin-bottom: 28px;
+    a{
+      text-decoration: none;
+      display: inline-block;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  &-link{
+    margin-top: 10px;
+    li{
+      margin-bottom: 10px;
+    }
+  }
+}
